@@ -1,0 +1,39 @@
+name = Stockton
+description = Stockton (Based on Best Responsive)
+core = 7.x
+engine = phptemplate
+stylesheets[all][] = style.css
+stylesheets[all][] = css/responsive.css
+scripts[] = js/uniform.js
+scripts[] = js/superfish.js
+scripts[] = js/initialize.js
+scripts[] = js/responsive.js
+
+regions[header]         = Header
+regions[content_top]    = Content Top
+regions[content]        = Content
+regions[help]           = Help
+regions[content_wide]   = Content Wide
+regions[content_bottom] = Content Bottom
+regions[footer]         = Footer
+
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = node_user_picture
+features[] = comment_user_picture
+features[] = comment_user_verification
+features[] = favicon
+features[] = main_menu
+features[] = secondary_menu
+settings[slideshow_display]  = 1
+settings[breadcrumbs]  = 1
+settings[socialicon_display]  = 1
+
+
+; Information added by drupal.org packaging script on 2013-09-02
+version = "7.x-1.2"
+core = "7.x"
+project = "best_responsive"
+datestamp = "1378142476"
+
